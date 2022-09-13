@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Bold.woff2') format('woff2'),
+        url('Gotham-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('Gotham-Book.woff2') format('woff2'),
+        url('Gotham-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.gothamBold {
+    font-family: 'Gotham';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.gothamBook{
+    font-family: 'Gotham Book';
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Gotham';
+}
+
+.backg
+{
+    background-image: url(../_img/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow-x:hidden ;
+}
+
+.block
+{
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    height: 900px;
+    margin: auto;
+    position: relative;
+    top: 25px ;
+    padding: 0px;
+}
+
+.student_name{
+    position: relative;
+    top: 50px;
+    left: 80px;
+    font-size: 35px;
+    color: rgba(0, 81, 137, 1);
+}
+
+.div_3{
+    position: relative;
+    left: 1250px;
+    bottom: 775px;
+    width: 200px;
+}
+
+.vector_img{
+    background-image: url(../_img/vector.png);
+    width: 130px;
+    height: 130px;
+    z-index: 3;
+    position: relative;
+    right: 20px;
+}
+
+.studentname
+{
+    background-color: rgb(190, 190, 190);
+    width: 900px;
+    height: 178px;
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+
+
+.gray_line
+{
+    background-color: rgb(139, 139, 139);
+    width: 1000px;
+    height: 30px;
+    margin: auto;
+    position: relative;
+    top: 3px;
+}
+
+.little_vec{
+    position: relative;
+    top: 90px;
+    right: 210px;
+}
+
+.aluno{
+    position: relative;
+    top: 33px;
+    left: 152px;
+    font-size: 25px ;
+    
+}
+
+.button1{
+    position: relative;
+    bottom: 720px;
+    left: 500px;
+    width: 150px;
+    height: 45px;
+}
+
+.button2{
+    position: relative;
+    bottom: 720px;
+    left: 500px;
+    width: 180px;
+    height: 45px;
+    background-color: red;
+    border-color: red;
+}
+
+.buttons{
+    position: relative;
+    left: 50px;
+}
+
+.perfil{
+    position: relative;
+    bottom: 650px;
+    left: 600px;
+}
+
+.texts{
+    position: relative;
+    bottom: 800px;
+    left: 200px;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.icons{
+    position: relative;
+    bottom: 990px;
+    left: 1350px;
+    padding: 12px;
+
+}
+
+.icon{
+    position: relative;
+    bottom: 680px;
+    left: 500px;
+}
+
+
+
+

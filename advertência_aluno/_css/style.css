@@ -1,0 +1,184 @@
+/*body{
+    background-image: linear-gradient(#FFFF, #005189);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}*/
+
+/*body{
+    background-image:url("../_imagens/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}*/
+@font-face {
+  font-family: 'Gotham';
+  src: url('Gotham-Bold.woff2') format('woff2'),
+      url('Gotham-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('Gotham-Book.woff2') format('woff2'),
+      url('Gotham-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+header{
+    width: 100%;
+    height: 112px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+}
+
+.imglogo{
+  position: relative;
+  top: 30px;
+}
+
+#paragrafo{
+  background-color: black;
+  color: white;
+  height: 35px;
+  position: relative;
+  bottom: 25px;
+}
+
+.HeaderText{
+    position: relative;
+    bottom: 40px;
+    margin-left: 350px;
+}
+
+.GrayText{
+  color: gray;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Gotham Book';
+  font-weight: normal;
+  font-style: normal;
+  overflow-y: hidden;
+}
+
+.gothamBold {
+  font-family: 'Gotham';
+  font-weight: bold;
+  font-style: normal;
+}
+
+.BackG{
+  background-image: linear-gradient(#ffffff, #005189);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.titulo{
+    background-color: #005189;
+    align-self: center;
+    padding-left: 500px;
+    color: #ffffff;
+    /*margin: 10px 150px 0px 400px;*/
+    size: 5px;
+    box-shadow: 1px 4px 2px #888888;
+    margin-left: 300px;
+    margin-right: 100px;
+}
+
+#h1 {
+    margin: 140px 70px 30px 70px;
+    padding: 10px 70px;
+    
+}
+
+.avisos {
+    background-color: #ffffff;
+    width: 100%px;
+    height: 500px;
+    /*margin: 10px 00px 110px 400px;*/
+    align-self: center;
+    /*padding: 10px 175px 10px 680px;*/
+    box-shadow: 1px 4px 2px #888888;
+    margin-left: 300px;
+    margin-right: 100px;
+    
+}
+
+
+#select{
+  width: 100%;
+  height: 50px;
+  box-shadow: 0px 2px 8px #888888;
+  margin: 0 auto;
+  border: none;
+  z-index: 11;
+}
+
+.custom-select{
+  margin: fit-content;
+  margin-left: 300px;
+  margin-right: 100px;
+}
+
+.Vector{
+  position: relative;
+
+  top: 20px;
+}
+
+.Selection{
+      z-index:11 ;
+      position: relative;
+      left: 0px;
+      width: 150px;
+      height: 40px;
+      border-radius: 10px;
+      bottom: 200px;
+}
+.caps{
+  color: white;
+  font-size: 30px;
+}
+.WhiteText{
+  color: white;
+  padding:20px;
+  margin:auto;
+  font-size: 20px;
+}
+.Nav{
+  background-color: rgba(0, 81, 137, 1);;
+  width: 200px;
+  height: 379px;
+  margin: 60px;
+  position: relative;
+  left: 10px;
+  text-align: center;
+  top: 97px;
+  z-index: 10;
+}
+.DivP{
+  position: relative;
+  bottom: 500px;
+}
+
+#d {
+  size: 50px;
+}
+
+.footer{
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}

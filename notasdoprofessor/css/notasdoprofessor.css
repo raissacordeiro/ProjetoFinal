@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fontes/Gotham-Bold.woff2') format('woff2'),
+        url('../fontes/Gotham-Bold.woff2') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('../fontes/Gotham-Book.woff2') format('woff2'),
+        url('../fontes/Gotham-Book.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.gothamBold {
+    font-family: 'Gotham';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.gothamBook{
+    font-family: 'Gotham Book';
+    font-weight: normal;
+    font-style: normal;
+}
+#fundo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%);
+    background-image: url('../imagens/login.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    background-image: linear-gradient(#ffffff, #005189);
+    margin: 0px;
+    padding: 0%;
+    background-size: 100%;
+    background-image:url(imagens/loginazul.png) ;
+    font-family:'Gotham Book';
+    font-family:'Gotham';
+    overflow-x: hidden;
+}
+#cabecalho{
+    width: 100%;
+    height: 112px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+}
+.imglogo{
+    position: relative;
+    top: 30px;
+    left: 40px ;
+}
+.headerText{
+    position: relative;
+    bottom: 40px;
+    left: 290px;
+}
+.grayText{
+    color: gray;
+}
+#paragrafo{
+    background-color: black;
+    color: white;
+    height: 35px;
+    position: relative;
+    bottom: 25px;
+}
+#sistema{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+.Nav{
+    background-color: rgba(0, 81, 137, 1);;
+    width: 200px;
+    height: 379px;
+    margin: 60px;
+    position: relative;
+    left: 10px;
+    text-align: center;
+    top: -65px;
+}
+
+.tabelacompleta{
+    margin: auto;
+    bottom: 500px;
+    width: 1190px;
+    border: 0px;
+    height: 100px;
+    position: relative;
+    bottom: 450px;
+}
+
+.titulo{
+    background-color: red; 
+    width: 1178px;
+    top: 46px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    color: white;
+    
+}
+
+.turma{
+    background-color:white; 
+    width: 1176px;
+    top: 140px;
+    margin: auto;
+    text-align: left;
+    position: relative;
+    
+}
+
+.materias{
+    background-color:white;
+     height: 65px;
+}
+.materia8{
+    height: 65px;
+}
+.materia9{
+    height: 65px;
+}
+.materia10{
+    height: 65px;
+}
+
+.ultimacoluna{
+    background-color: white;
+    width: 100px;
+}
+.ultimacoluna2{
+    background-color:white;
+    width: 100px;
+}
+.ultimacoluna3{
+    background-color:white;
+    width: 100px;
+}
+.ultimacoluna4{
+    background-color:white;
+    width: 100px;
+}
+.ultimacoluna5{
+    background-color:white;
+    width: 100px;
+}
+.ultimacoluna6{
+    background-color:white;
+    width: 100px;
+}
+.ultimacoluna7{
+    background-color:white;
+    width: 100px;
+}
+.ultimacoluna8{
+    background-color:white;
+    width: 15%;
+}
+.ultimacoluna9{
+    background-color:white;
+}
+.Vector{
+    position: relative;
+    top: 20px;
+}
+
+.Selection{
+        z-index:10 ;
+        position: relative;
+        bottom: 370px;
+        left: 95px;
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+}
+.caps{
+    color: white;
+    font-size: 30px;
+}
+.WhiteText{
+    color: white;
+    padding:20px;
+    margin:auto;
+    font-size: 20px;
+}
+#paragrafo{
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+#sistema{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.adicionar{
+    background: black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 16%;
+}
+/* .adicionar2{
+    background-color: black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin-left: 76%;
+    z-index: 10;
+} */
+
+.buttonH2{
+    border-color: white;
+    background-color: white;
+    position: relative;
+    left: 1225px;
+    width: 250px;
+    height: 50px;
+    margin-top: 60px;
+    bottom:450px;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.WhiteText{
+    color: white;
+    padding:20px;
+    margin:auto;
+    font-size: 20px;
+}
+
+.subtitulo{
+    position: relative;
+    margin: 0px;
+    left: 360px;
+    top: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*background-color: none;
+box-shadow: 10px 5px 5px rgba(93, 127, 143, 1);
+}

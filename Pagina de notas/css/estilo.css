@@ -1,0 +1,190 @@
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Bold.woff2') format('woff2'),
+        url('Gotham-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('Gotham-Book.woff2') format('woff2'),
+        url('Gotham-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.gothamBold {
+    font-family: 'Gotham';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.gothamBook{
+    font-family: 'Gotham Book';
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    font-family: 'Gotham';
+    background-image: linear-gradient(#ffffff, #005189);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    width: 1910px;
+    overflow-x: hidden;
+
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+}
+
+.Vector{
+    position: relative;
+
+    top: 20px;
+}
+
+.Selection{
+        z-index:11 ;
+        position: relative;
+        top: 250px;
+        left: 95px;
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+}
+.caps{
+    color: white;
+    font-size: 30px;
+}
+.WhiteText{
+    color: white;
+    padding:20px;
+    margin:auto;
+    font-size: 20px;
+}
+.Nav{
+    background-color: rgba(0, 81, 137, 1);;
+    width: 200px;
+    height: 379px;
+    margin: 60px;
+    position: relative;
+    left: 10px;
+    text-align: center;
+    top: 10px;
+    z-index: 10;
+}
+
+.center {
+    margin: auto;
+}
+
+.table1{
+    position: relative;
+    left: 230px;
+    top: 125px;
+}
+
+.table2{
+    position: relative;
+    left: 230px;
+    top: 125px;
+}
+
+.table3{
+    position: relative;
+    left: 230px;
+    top: 125px;
+}
+
+.fundo{
+  background-color: white;
+}
+
+#box{
+    box-shadow: 2px 2px 2px  rgb(209, 204, 204);
+}
+
+
+header{
+    width: 100%;
+    height: 112px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+}
+
+.principal { 
+    position: relative;
+    bottom: 570px;
+    left: 100px;
+
+}
+
+.header{
+    width: 100%;
+    height: 112px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+}
+
+.imglogo{
+    position: relative;
+    top: 30px;
+    width: 210px;
+    height: 80px;
+}
+
+#paragrafo{
+    background-color: black;
+    color: white;
+    height: 35px;
+    position: relative;
+    bottom: 40px;
+}
+
+.HeaderText{
+    position: relative;
+    bottom: 50px;
+    left: 300px;
+}
+.GrayText{
+    color: gray;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    right: 100px;
+    text-align: center;
+    position: relative;
+    top: 900px;
+    overflow-y: hidden ;  
+}
+
+.WhiteText{
+    color: white;
+    padding:20px;
+    margin:auto;
+    font-size: 20px;
+}
+
+table{
+  
+
+}

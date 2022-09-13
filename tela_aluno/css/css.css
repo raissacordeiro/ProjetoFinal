@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Bold.woff2') format('woff2'),
+        url('Gotham-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('Gotham-Book.woff2') format('woff2'),
+        url('Gotham-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.gothamBold {
+    font-family: 'Gotham';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.gothamBook{
+    font-family: 'Gotham Book';
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0; 
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Gotham';
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#backg{
+    background-image: linear-gradient(#ffffff, #005189);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header{
+    width: 100%;
+    height: 112px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+}
+
+.imglogo{
+    position: relative;
+    top: 30px;
+    left: 40px ;
+}
+
+.icon{
+    background-image: url(../_img/GEORGE.png);
+    width: 275px;
+    height: 275px;
+    margin: auto;
+    background-repeat:no-repeat ;
+}
+
+.box{
+    width: 864px;
+    height: 129px;
+    margin: auto;
+    background-color:rgba(0, 81, 137, 1);
+    box-shadow: 10px 5px 5px rgba(93, 127, 143, 1);
+    position: relative;
+    left: 20px;
+
+    
+}
+
+.whiteText{
+    color: white;
+    padding:20px;
+    margin:auto;
+    font-size: 20px;
+    position: relative;
+    bottom: 55px;
+}
+
+.button{
+    position: relative;
+    left: 385px;
+    width: 190px;
+    height: 40px;
+    text-decoration: none;
+    z-index: 10PX;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    bottom: 60px;
+    /* cursor: pointer; */
+}
+
+.button:hover{
+    background-color: rgb(220, 220, 220);
+}
+
+.button:active {
+    background-color: rgb(245, 245, 245);
+}
+
+.buttonH1{
+    position: relative;
+    left: 310px;
+    width: 250px;
+    height: 50px;
+    margin-top: 60px;
+    background-image: url("Barra_de_pesquisa.png");
+    border: 0px;
+    border-radius: 10px;
+    transition: 0.4s;
+    
+}
+
+.buttonH2{
+    border-color: white;
+    background-color: white;
+    position: relative;
+    left: 310px;
+    width: 250px;
+    height: 50px;
+    margin-top: 60px;
+}
+
+.nav{
+    background-color: rgba(0, 81, 137, 1);;
+    width: 200px;
+    height: 379px;
+    margin: 60px;
+    position: relative;
+    left: 100px;
+    text-align: center;
+    top: 10px;
+    z-index: 10;
+}
+
+.corpo {
+    position: relative;
+    top: -450px;
+    right: 50px;
+}
+
+.vector{
+    position: relative;
+
+    top: 20px;
+}
+
+.selection{
+        z-index:11 ;
+        position: relative;
+        top: 250px;
+        left: 185px;
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    top: 45px;
+    overflow-y: hidden ;   
+}
+
+.caps{
+    color: white;
+    font-size: 30px;
+
+}
+
+.box1{
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    background-color:rgb(0, 0, 0);
+    box-shadow: 10px 5px 5px rgba(93, 127, 143, 1);
+
+}
+
+#paragrafo{
+    background-color: black;
+    color: white;
+    height: 35px;
+    position: relative;
+    bottom: 25px;
+}
+#sistema{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.headerText{
+    position: relative;
+    bottom: 40px;
+    left: 290px;
+}
+.grayText{
+    color: gray;
+}
+
+.moving{
+    color: white;
+    padding:20px;
+    margin:auto;
+    font-size: 20px;
+    position: relative;
+    left: 610px;
+}
+
+.name_aluno{
+    color: white;
+    padding:20px;
+    margin:auto;
+    font-size: 20px;
+}
+
+
+/* .button{
+    position: relative;
+    left: 450px;
+    width: 190px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: white;
+    border-color: white;
+} */

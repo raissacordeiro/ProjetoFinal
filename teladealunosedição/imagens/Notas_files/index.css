@@ -1,0 +1,168 @@
+body{
+    background-image: linear-gradient(#ffffff, #005189);
+    margin: 0px;
+    padding: 0%;
+    background-size: 100%;
+    background-image:url(imagens/loginazul.png) ;
+    
+}
+.header{
+    background-color: white;
+    width: 100%;
+    height:90px;
+
+}
+
+.Nav{
+    background-color: rgba(0, 81, 137, 1);;
+    width: 200px;
+    height: 379px;
+    margin: 60px;
+    position: relative;
+    left: 10px;
+    text-align: center;
+    top: -65px;
+}
+
+.tabelacompleta{
+    margin: auto;
+    bottom: 500px;
+    width: 1190px;
+    border: 0px;
+    height: 600px;
+    position: relative;
+    bottom: 450px;
+
+}
+
+.titulo{
+    background-color: red; 
+    width: 1118px;
+    top: 80px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    color: white;
+    
+}
+.titulo2{
+    background-color:white; 
+    width: 1118px;
+    top: 80px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.materias{
+    background-color:white;
+     height: 65px;
+}
+.materia8{
+    height: 65px;
+}
+.materia9{
+    height: 65px;
+}
+.materia10{
+    height: 65px;
+}
+
+.ultimacoluna{
+    background-color: white;
+    width: 100px;
+}
+.ultimacoluna2{
+    background-color:#7eb5d0;
+    width: 100px;
+}
+.ultimacoluna3{
+    background-color:#7eb5d0;
+    width: 100px;
+}
+.ultimacoluna4{
+    background-color:#7eb5d0;
+    width: 100px;
+}
+.ultimacoluna5{
+    background-color:#7eb5d0;
+    width: 100px;
+}
+.ultimacoluna6{
+    background-color:#7eb5d0;
+    width: 100px;
+}
+.ultimacoluna7{
+    background-color:#7eb5d0;
+    width: 100px;
+}
+.ultimacoluna8{
+    background-color:#7eb5d0;
+    width: 100px;
+}
+.ultimacoluna9{
+    background-color:#7eb5d0;
+    width: 100px;
+}
+.Vector{
+    position: relative;
+    top: 20px;
+}
+
+.Selection{
+        z-index:10 ;
+        position: relative;
+        bottom: 370px;
+        left: 95px;
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+}
+.caps{
+    color: white;
+    font-size: 30px;
+}
+.WhiteText{
+    color: white;
+    padding:20px;
+    margin:auto;
+    font-size: 20px;
+}
+#paragrafo{
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+#sistema{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.adicionar{
+    background: black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 16%;
+}
+/* .adicionar2{
+    background-color: black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin-left: 76%;
+    z-index: 10;
+} */
+.botao1{
+    margin-bottom: 50px;
+    bottom: 518px;
+    position:relative;
+     left: 1586px;
+     width: 250px;
+     height: 50px;
+     margin-top: 70px;
+ }
+/*background-color: none;
+box-shadow: 10px 5px 5px rgba(93, 127, 143, 1);
+}

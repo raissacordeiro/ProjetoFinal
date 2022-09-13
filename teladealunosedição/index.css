@@ -1,0 +1,282 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('fonte/Gotham-Bold.woff2') format('woff2'),
+        url('fonte/Gotham-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('fonte/Gotham-Book.woff2') format('woff2'),
+        url('fonte/Gotham-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.gothamBold {
+    font-family: 'Gotham';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.gothamBook{
+    font-family: 'Gotham Book';
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-image: linear-gradient(#ffffff, #005189); 
+    margin: 0px;
+    padding: 0%;
+    background-size: 107%;
+    background-image:url(imagens/loginazul.png) ;
+    overflow-x: hidden;
+    font-family:'Gotham Book';
+    font-family:'Gotham' ;
+    
+    
+}
+.header{
+    background-color: white;
+    width: 100%;
+    height:90px;
+
+}
+
+.Nav{
+    background-color: rgba(0, 81, 137, 1);;
+    width: 200px;
+    height: 379px;
+    margin: 60px;
+    position: relative;
+    left: 10px;
+    text-align: center;
+    top: -65px;
+}
+
+.tabelacompleta{
+    margin: auto;
+    bottom: 500px;
+    width: 1190px;
+    border: 0px;
+    height: 600px;
+    position: relative;
+    bottom: 450px;
+
+}
+
+.titulo{
+    background-color: red; 
+    width: 1170px;
+    top: 80px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    color: white;
+    
+}
+
+.materias{
+    background-color:white;
+     height: 65px;
+}
+.materia8{
+    height: 65px;
+}
+.materia9{
+    height: 65px;
+}
+.materia10{
+    height: 65px;
+}
+
+.ultimacoluna{
+    background-color: white;
+    width: 100px;
+}
+.ultimacoluna2{
+    background-color:#7eb5d0;
+    width: 100px;
+}
+.ultimacoluna3{
+    background-color:#7eb5d0;
+    width: 100px;
+}
+.ultimacoluna4{
+    background-color:#7eb5d0;
+    width: 100px;
+}
+.ultimacoluna5{
+    background-color:#7eb5d0;
+    width: 100px;
+}
+.ultimacoluna6{
+    background-color:#7eb5d0;
+    width: 100px;
+}
+.ultimacoluna7{
+    background-color:#7eb5d0;
+    width: 100px;
+}
+.ultimacoluna8{
+    background-color:#7eb5d0;
+    width: 100px;
+}
+.ultimacoluna9{
+    background-color:#7eb5d0;
+    width: 100px;
+}
+.Vector{
+    position: relative;
+    top: 20px;
+}
+
+.Selection{
+        z-index:10 ;
+        position: relative;
+        bottom: 370px;
+        left: 95px;
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+}
+.caps{
+    color: white;
+    font-size: 30px;
+}
+.WhiteText{
+    color: white;
+    padding:20px;
+    margin:auto;
+    font-size: 20px;
+}
+#paragrafo{
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+#sistema{
+    padding-top: 11px;
+    padding-left: 15px;
+}
+
+.adicionar{
+    background: black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 16%;
+}
+/* .adicionar2{
+    background-color: black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin-left: 76%;
+    z-index: 10;
+} */
+
+.certinho2{
+    position: relative; 
+    left: 1480px;
+    width: 55px;
+    bottom: 450px;
+}
+header{
+    width: 100%;
+    height: 112px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+}
+
+.imglogo{
+    position: relative;
+    top: 30px;
+    width: 130px;
+    left: 150px;
+}
+
+#paragrafo{
+    background-color: black;
+    color: white;
+    height: 35px;
+    position: relative;
+    bottom: 25px;
+}
+
+.HeaderText{
+    position: relative;
+    bottom: 40px;
+    left: 350px;
+}
+.GrayText{
+    color: gray;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    top: 500px;
+}
+
+.WhiteText{
+    color: white;
+    padding:20px;
+    margin:auto;
+    font-size: 20px;
+}
+
+.turma{
+    position: relative;
+    top: 100px;
+    left: 380px;
+    
+}
+ .turma2{
+    position: relative;
+    top: 87px;
+    left: 380px;
+
+ }
+
+ header{
+    width: 100%;
+    height: 112px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+}
+
+.imglogo{
+    position: relative;
+    top: 30px;
+}
+
+#paragrafo{
+    background-color: black;
+    color: white;
+    height: 35px;
+    position: relative;
+    bottom: 25px;
+}
+
+.HeaderText{
+    position: relative;
+    bottom: 40px;
+    left: 350px;
+}
+.GrayText{
+    color: gray;
+}
+
+/*background-color: none;
+box-shadow: 10px 5px 5px rgba(93, 127, 143, 1);
+}

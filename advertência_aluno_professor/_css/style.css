@@ -1,0 +1,271 @@
+/*body{
+    background-image: linear-gradient(#FFFF, #005189);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}*/
+
+/*body{
+    background-image:url("../_imagens/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}*/
+@font-face {
+  font-family: 'Gotham';
+  src: url('Gotham-Bold.woff2') format('woff2'),
+      url('Gotham-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('Gotham-Book.woff2') format('woff2'),
+      url('Gotham-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+#sistema{
+  padding: 8px;
+}
+
+header{
+    width: 100%;
+    height: 112px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+}
+
+.imglogo{
+  position: relative;
+  top: 30px;
+}
+
+#paragrafo{
+  background-color: black;
+  color: white;
+  height: 35px;
+  position: relative;
+  bottom: 25px;
+}
+
+.HeaderText{
+    position: relative;
+    bottom: 40px;
+    margin-left: 350px;
+}
+
+.GrayText{
+  color: gray;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Gotham Book';
+  font-weight: normal;
+  font-style: normal;
+  overflow-y:visible;
+}
+
+.gothamBold {
+  font-family: 'Gotham';
+  font-weight: bold;
+  font-style: normal;
+}
+
+.BackG{
+  background-image: linear-gradient(#ffffff, #005189);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.titulo{
+    background-color: #005189;
+    align-self: center;
+    padding-left: 500px;
+    color: #ffffff;
+    size: 5px;
+    box-shadow: 1px 4px 2px #888888;
+    margin-left: 300px;
+    margin-right: 100px;
+}
+
+#h1 {
+    margin: 140px 70px 30px 70px;
+    padding: 10px 70px;
+    
+}
+
+.avisos {
+    background-color: #ffffff;
+    width: 100%px;
+    height: 300px;
+    align-self: center;
+    box-shadow: 1px 4px 2px #888888;
+    margin-left: 300px;
+    margin-right: 100px;
+    
+}
+
+.Vector{
+  position: relative;
+
+  top: 20px;
+}
+
+.Selection{
+      z-index:10 ;
+      position: relative;
+      left: 0px;
+      width: 150px;
+      height: 40px;
+      border-radius: 10px;
+      bottom: 200px;
+      z-index: 11;
+}
+.caps{
+  color: white;
+  font-size: 30px;
+}
+.WhiteText{
+  color: white;
+  padding:20px;
+  margin:auto;
+  font-size: 20px;
+}
+.Nav{
+  background-color: rgba(0, 81, 137, 1);;
+  width: 200px;
+  height: 379px;
+  margin: 60px;
+  position: relative;
+  left: 10px;
+  text-align: center;
+  top: 97px;
+}
+.DivP{
+  position: relative;
+  bottom: 500px;
+}
+
+#d {
+  size: 50px;
+}
+
+#button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 14px 2px;
+  cursor: pointer;
+  background-color: #005189;
+  left: 86.5%;
+  position: relative;
+}
+
+.his{
+  position: relative;
+  bottom: 600px;
+}
+
+.titulo2{
+  background-color: #005189;
+  align-self: center;
+  padding-left: 400px;
+  color: #ffffff;
+  size: 5px;
+  box-shadow: 1px 4px 2px #888888;
+  margin-left: 300px;
+  margin-right: 100px;
+}
+
+.avisos2 {
+  background-color: #ffffff;
+  width: 100%px;
+  height: 160px;
+  align-self: center;
+  box-shadow: 1px 4px 2px #888888;
+  margin-left: 550px;
+  position: relative;
+  margin-right: 100px;
+  bottom: 175px;
+}
+
+.data{
+  background-color: #005189;
+  width: 13%;
+  height: 160px;
+  box-shadow: 1px 4px 2px #888888;
+  margin-left: 300px;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Gotham';
+}
+
+.data2{
+  background-color: #005189;
+  width: 13%;
+  height: 160px;
+  box-shadow: 1px 4px 2px #888888;
+  margin-left: 300px;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Gotham';
+  position: relative;
+  bottom: 144px;
+}
+
+
+.avisos3 {
+  background-color: #ffffff;
+  width: 100%px;
+  height: 160px;
+  align-self: center;
+  box-shadow: 1px 4px 2px #888888;
+  margin-left: 550px;
+  position: relative;
+  margin-right: 100px;
+  bottom: 320px;
+}
+
+.data3{
+  background-color: #005189;
+  width: 13%;
+  height: 160px;
+  box-shadow: 1px 4px 2px #888888;
+  margin-left: 300px;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Gotham';
+  position: relative;
+  bottom: 294px;
+}
+
+.avisos4 {
+  background-color: #ffffff;
+  width: 100%px;
+  height: 160px;
+  align-self: center;
+  box-shadow: 1px 4px 2px #888888;
+  margin-left: 550px;
+  position: relative;
+  margin-right: 100px;
+  bottom: 470px;
+}
+
+.footer{
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}

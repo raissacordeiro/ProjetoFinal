@@ -1,0 +1,203 @@
+
+
+
+@font-face {
+    font-family: 'Gotham';
+    src: url("transfonter.org-20220714-223504/Gotham-Bold.woff2") format('woff2'),
+        url('transfonter.org-20220714-223504/Gotham-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('transfonter.org-20220714-223504/Gotham-Book.woff2') format('woff2'),
+        url('transfonter.org-20220714-223504/Gotham-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body{
+    background-image: url(fundo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham Book';
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+}
+
+.Vector{
+    position: relative;
+
+    top: 20px;
+}
+
+.Selection{
+        z-index:11 ;
+        position: relative;
+        top: 250px;
+        left: 95px;
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+
+}
+.caps{
+    color: white;
+    font-size: 30px;
+}
+.WhiteText{
+    color: white;
+    padding:20px;
+    margin:auto;
+    font-size: 20px;
+}
+.Nav{
+    background-color: rgba(0, 81, 137, 1);;
+    width: 200px;
+    height: 379px;
+    margin: 60px;
+    position: relative;
+    left: 10px;
+    text-align: center;
+    bottom: 10px;
+    z-index: 10;
+}
+
+.center {
+    margin: auto;
+}
+
+.table1{
+    position: relative;
+    left: 230px;
+    top: 100px;
+    width: 1530px;
+    height: 70px;
+}
+
+.table2{
+    position: relative;
+    left: 230px;
+    top: 100px;
+    padding: 10px;
+}
+
+.fundo{
+  background-color: white;
+}
+
+#box{
+    box-shadow: 2px 2px 2px  rgb(209, 204, 204);
+}
+
+
+
+.gothamBold {
+    font-family: 'Gotham';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.gothamBook{
+    font-family: 'Gotham Book';
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    width: 100%;
+    height: 112px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+}
+
+.principal { 
+    position: relative;
+    bottom: 570px;
+    left: 100px;
+
+}
+
+.header{
+    width: 100%;
+    height: 112px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+}
+
+.imglogo{
+    position: relative;
+    top: 30px;
+    width: 210px;
+    height: 80px;
+    left: 100px;
+}
+
+#paragrafo{
+    background-color: black;
+    color: white;
+    height: 35px;
+    position: relative;
+    bottom: 40px;
+}
+
+.HeaderText{
+    position: relative;
+    bottom: 40px;
+    left: 350px;
+}
+.GrayText{
+    color: gray;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    right: 100px;
+    text-align: center;
+    position: relative;
+    top: 1400px;
+    overflow-y: hidden ;  
+}
+
+.WhiteText{
+    color: white;
+    padding:20px;
+    margin:auto;
+    font-size: 20px;
+}
+
+
+.colunaazul{
+    background-color: rgba(0, 81, 137, 1) ;
+    color: #ffffff;
+    font-family: 'Gotham';
+    font-size: 15px;
+    text-align: center;
+}
+td{
+    text-align: center;
+    color: blue
+    
+}
+
+.f{
+   color: red;
+}
